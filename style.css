@@ -17,7 +17,14 @@ h1, .nav-item, .btn, #header-citation{
 h2, h3 {
     color: #1d89be;
 }
+/* CSS Carrousel */
 
+.photocarroussel {
+   
+    height: 40vh;
+    width: auto;
+  
+}
 /* CSS du header */
 
 header, footer {
@@ -91,6 +98,17 @@ h4 , #header-citation{
     color: #D3D3D3;
 }
 
+/* CSS Evenement */
+.background-evenement, .card-body-event{
+    background-image: url(images/fontevent.jpg);
+    background-size: cover;
+    color: #D3D3D3;
+}
+.presentation-evenement{
+    background-color: rgb(245, 243, 244, 0.30);
+
+}
+
 /* CSS du footer */
 
 footer{
@@ -101,5 +119,5 @@ footer{
     }
 
 
-@media screen and (min-width: 768px) {
+
     

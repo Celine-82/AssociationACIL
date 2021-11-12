@@ -54,7 +54,8 @@
                         </div>
                         <div class="collapse navbar-collapse " id="menuhamburger">
                             <ul class="navbar-nav nav-pills nav-fill w-100 px-5">    
-                               <li class="nav-item">
+                                <!-- remplacer nav-fill par nav-justified poour largeur égal des elements -->
+                                <li class="nav-item">
                                 <a href="./index.html" class="nav-link active ">Accueil</a>
                                 </li>
                                 <li class="nav-item">
@@ -140,7 +141,40 @@
                         <a href="./activites.html" class="btn btn-dark" role="button">En savoir +</a>
                     </div>
 
-                    
+                    <div class="col-12 background-evenement py-5">
+                        <div class="container presentation-evenement py-5">
+                            <h2>NOS EVENEMENTS</h2>
+                            <div id="carouselEvenement" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="6000">
+                                        <img src="./Images/thedish.jpg" class="photocarroussel center-block " alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="6000">
+                                        <img src="./Images/videtachambre.jpg" class="photocarroussel center-block " alt="...">
+                                    </div>
+                                    <div class="carousel-item"data-bs-interval="6000">
+                                        <img src="./Images/noplastic.png" class="photocarroussel center-block " alt="...">
+                                    </div>
+                                    <div class="carousel-item"data-bs-interval="6000">
+                                        <img src="./Images/boite de noel.jpg" class="photocarroussel center-block " alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselEvenement" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselEvenement" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                            <br>
+                            <h2>A vos agendas!</h2> 
+                            <p>Que se soient pour s'associer aux activités associatives locales, aux évenements artistiques portés par nos partenaires ou bien pour se recontrer tout simplement... 
+                            Retrouver les prochaines dates a ne pas manquer ou nous retrouver</p>
+                            <a href="./evenements.html" class="btn btn-dark" role="button">En savoir +</a>
+                        </div>
+                    </div>
                 </div> 
             </main>
 
