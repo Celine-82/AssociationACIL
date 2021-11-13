@@ -17,17 +17,9 @@ h1, .nav-item, .btn, #header-citation{
 h2, h3 {
     color: #1d89be;
 }
-
-
-/* p{
-    font-size: 1.5rem;
-} */
-
-/* .container-grille {
-    display: flex;
-    flex-direction: column;
-    margin-top: -25px;
-} */
+h4 , #header-citation{
+    color: #D3D3D3;
+}
 
 /* CSS Carrousel */
 
@@ -42,13 +34,10 @@ h2, h3 {
 
 header, footer {
     background-color:#d62839 ;
-    /* justify-content: center;
-    align-items: center;
-    display: flex; */
     } 
 
 #logo{
-    max-width:  60%;
+    max-width:  80%;
     border-radius: 50%;
     padding: 0.5em;
     }
@@ -92,27 +81,17 @@ padding:0.3rem ;
     background-color:#b1a7a6 ;
 }
 
-.socials {
-    color:#161A1D ;
-    font-size: 1.8rem;
-    padding: 10px 0;
-    }
 
-.socials i {
-    font-size: 1.5rem;
-    color:#161A1D#;
-}
 .socials {
     text-decoration: none;
     color: #D3D3D3;
+    font-size: 1.8rem;
     
 }
 .socials:hover{
-    color: #D3D3D3;
+    color:#161A1D;
 }
-h4 , #header-citation{
-    color: #D3D3D3;
-}
+
 /* css page asso */
 
 .membres{
@@ -155,14 +134,6 @@ hr{
     color: #d62839;
 }
 
-/* CSS du footer */
-
-footer{
-    display: flex;
-    flex-direction: column;
-    padding: 20px 0;
-    height: 15wh;
-    }
 
 
 @media screen and (min-width: 768px) {
