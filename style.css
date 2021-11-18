@@ -20,6 +20,9 @@ h2, h3 {
 h4 , #header-citation{
     color: #D3D3D3;
 }
+main {
+    background-color:#f5f3f4 ;   
+} 
 .photos, .valeurs{
   position:relative;
  
@@ -42,7 +45,7 @@ a{
 
 }
 
-/* CSS du header */
+/* CSS du header et footer*/
 
 header, footer {
     background-color:#d62839 ;
@@ -53,6 +56,15 @@ header, footer {
     border-radius: 50%;
     padding: 0.5em;
     }
+.socials {
+    text-decoration: none;
+    color: #D3D3D3;
+    font-size: 1.8rem;
+    
+}
+.socials:hover{
+    color:#161A1D;
+}
 
 /* Css barre de navigation */
 
@@ -83,26 +95,13 @@ padding:0.3rem ;
 }
 
 
-/* CSS du main */
-
-  main {
-    background-color:#f5f3f4 ; 
-   
-} 
+/* CSS de l'index */
+ 
 .valeurs{
     background-color:#b1a7a6 ;
 }
 
 
-.socials {
-    text-decoration: none;
-    color: #D3D3D3;
-    font-size: 1.8rem;
-    
-}
-.socials:hover{
-    color:#161A1D;
-}
 /* CSS Carrousel */
 
 .photocarroussel {
@@ -112,7 +111,7 @@ padding:0.3rem ;
 
 /* css page asso */
 
-.membres{
+.association_team{
     background-color:#D3D3D3;
 }
 
