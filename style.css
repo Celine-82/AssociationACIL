@@ -67,7 +67,7 @@ header, footer {
 .socials{
     font-size: 1.8rem;
 }
-.socials, .link, .credit_link{
+.socials, .link, .credit_link, .email{
     text-decoration: none;
     color: #f5f3f4 ;
     }
