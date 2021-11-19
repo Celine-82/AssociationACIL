@@ -7,26 +7,29 @@
 body{
     background-color: rgb(246, 245, 248);
     font-family: 'Montserrat', sans-serif;
-    
-}
+    }
 
-h1, .nav-item, .btn, #header-citation{
+h1, .nav-item, .btn {
     font-family: 'Architects Daughter', cursive; 
     color: #161A1D;
-}
+    }
+
 h2, h3 {
     color: #1d89be;
-}
-h4 , #header-citation{
+    }
+
+h4 {
     color: #D3D3D3;
-}
+    }
+
 main {
     background-color:#f5f3f4 ;   
-} 
-.photos, .valeurs{
+    } 
+
+.photo_credits, .index_valeurs{
   position:relative;
- 
-}
+    }
+
 .credits{
     background-color:#b1a7a6;
     color: #f5f3f4;
@@ -42,78 +45,72 @@ a{
     text-decoration:none;
     font-weight: bold;
     color: #f5f3f4;
-
-}
+    }
 
 /* CSS du header et footer*/
 
 header, footer {
     background-color:#d62839 ;
-    } 
+    }
+
+.header_citation{
+    font-family: 'Architects Daughter', cursive;
+    color: #D3D3D3;
+}
 
 .logo{
     max-width:  80%;
     border-radius: 50%;
     padding: 0.5em;
     }
+
 .socials {
     text-decoration: none;
     color: #D3D3D3;
-    font-size: 1.8rem;
-    
-}
+    font-size: 1.8rem;  
+    }
+
 .socials:hover{
     color:#161A1D;
-}
+    }
 
 /* Css barre de navigation */
 
 .navbar-expand-md{
     flex-wrap: wrap;
     justify-content: flex-start;
-}
+    }
 
-.navbar {
-    background-color:#161A1D ;
-  
-}   
-
-.navbar-toggler {
+.navbar, .navbar-toggler {
     background-color:#161A1D;
-     }
-     
-
+    }
+ 
 #menuhamburger .active {
     background-color:#f5f3f4;
     color: #161A1D;
-    font-weight: bold;
-   
-}
+    }
+    
 .nav-item {
-font-size: 1.5rem;
-padding:0.3rem ;
-}
-
+    font-size: 1.5rem;
+    padding:0.3rem ;
+    }
 
 /* CSS de l'index */
  
-.valeurs{
+.index_valeurs{
     background-color:#b1a7a6 ;
-}
+    }
 
-
-/* CSS Carrousel */
-
-.photocarroussel {
+.index_carousel_photo {
     height: 40vh;
     width: auto;
-}
+    }
 
 /* css page asso */
 
 .association_team{
     background-color:#D3D3D3;
-}
+    }
 
 
 /* css du formulaire */
@@ -124,41 +121,43 @@ padding:0.3rem ;
     margin-top:20px;
     padding: 20px;
     box-shadow: 0px 0px 10px 3px #161A1D;
-}
+    }
+
 hr{
     background: #D3D3D3;
-}
+    }
+
 .btn-custom{
     background-color: #D3D3D3;
     }
+
 .btn-dark{
     background-color: #1d89be;
-    color: #f5f3f4;
-    
-}
+    color: #f5f3f4;  
+    }
 
+/* CSS evenement */
 
-
-/* CSS  page evenement */
-.background-evenement, .card-body-event{
+.index_carousel_event, .event_card_body{
     background-image: url(images/fontevent.jpg);
     background-size: cover;
     color: #D3D3D3;
-}
-.presentation-evenement{
-    background-color: rgb(245, 243, 244, 0.30);
+    }
 
-}
+.index_carousel_event_block{
+    background-color: rgb(245, 243, 244, 0.30);
+    }
+
 .text-end{
     color: #d62839;
-}
+    }
 
 
 @media screen and (min-width: 768px) {
-    .card-body-event{
+    .event_card_body{
         width: 75%;
     }
-    .photos-event{
+    .event_card_photo{
         width: 25%;
     }
 }
