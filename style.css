@@ -41,11 +41,11 @@ main {
     margin-bottom: 0.5rem;
     }
 
-a{
+/* a{
     text-decoration:none;
     font-weight: bold;
     color: #f5f3f4;
-    }
+    } */
 
 /* CSS du header et footer*/
 
@@ -64,10 +64,12 @@ header, footer {
     padding: 0.5em;
     }
 
-.socials {
+.socials{
+    font-size: 1.8rem;
+}
+.socials, .link, .credit_link{
     text-decoration: none;
-    color: #D3D3D3;
-    font-size: 1.8rem;  
+    color: #f5f3f4 ;
     }
 
 .socials:hover{
@@ -84,7 +86,7 @@ header, footer {
 .navbar, .navbar-toggler {
     background-color:#161A1D;
     }
- 
+
 #menuhamburger .active {
     background-color:#f5f3f4;
     color: #161A1D;
@@ -139,7 +141,7 @@ hr{
 /* CSS evenement */
 
 .index_carousel_event, .event_card_body{
-    background-image: url(images/fontevent.jpg);
+    background-image: url(./Images/fontevent.jpg);
     background-size: cover;
     color: #D3D3D3;
     }
